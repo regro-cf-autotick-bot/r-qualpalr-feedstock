@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/qualpalr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/qualpalr/qualpalr_{{ version }}.tar.gz
-  sha256: 6dc506203e1cd2e42fda3e2e02507a2344b53db287b868dedba76949708b29a0
+  sha256: 12bc0a4c5bf3c954888cbc182da8e6ae5f2dcf7d69ce0c52a3203dd4d9fd46f3
 
 build:
   number: 0
